@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: pink;
+    height: 50px;
+}
+
+
+.logo {
+    width: 25%;
+}
+
+.nav {
+    width: 50%;
+}
+
+.icons {
+    width: 25%;
+}
+
+.hero {
+    background-color: aqua;
+    height: 100vh;
+
+}
+
+.cards {
+    background-color: rgb(0, 13, 255);
+    height: 400px;
+}
+
+footer {
+    background-color: pink;
+    height: 50px;
+}
