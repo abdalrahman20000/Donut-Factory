@@ -6,10 +6,17 @@ if (user_name == null || user_name == undefined) {
 
 let user_geneder = prompt("Enter Your Gender :");
 
-while (user_geneder != "male" && user_geneder != "female") {
-    alert("Wrong Entery Try againe");
-    user_geneder = prompt("Enter Your Gender : male or female");
+function gender_validation() {
+
+    while (user_geneder != "male" && user_geneder != "female") {
+        alert("Wrong Entery Try againe");
+        user_geneder = prompt("Enter Your Gender : male or female");
+    }
 }
+
+gender_validation();
+
+
 
 if (user_geneder == "male") {
     alert("Welcome Mr " + user_name);
