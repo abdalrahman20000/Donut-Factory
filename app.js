@@ -100,7 +100,8 @@ info_ul.appendChild(gender_li);
 info_ul.appendChild(o_type_li);
 info_ul.appendChild(order_li);
 
-document.body.appendChild(info_div);
+// document.body.appendChild(info_div);
 h_section.appendChild(intro_p);
+h_section.insertAdjacentElement("afterend", info_div);
 
 
